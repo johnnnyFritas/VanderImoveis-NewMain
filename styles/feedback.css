@@ -1,0 +1,37 @@
+.feedback {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 0 0 2rem 0;
+}
+
+.feedback-c {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.feedback-c-txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .2rem;
+}
+
+.feedback-c-txt-t3 {
+    font-size: 11px;
+    font-family: var(--fonte-primaria);
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--branco-padrao);
+    background-color: var(--laranja-dourado);
+    border-radius: 28px;
+    text-align: center;
+    line-height: 16px;
+    padding: .5rem .2rem;
+}
